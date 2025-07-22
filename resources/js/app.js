@@ -1,4 +1,10 @@
+import '../css/app.css'; 
+
 import './bootstrap';
+import $ from 'jquery';
+
+window.$ = $;
+window.jQuery = $;
 
 import Alpine from 'alpinejs';
 
